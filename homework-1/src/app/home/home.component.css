@@ -1,0 +1,27 @@
+/* home.component.css */
+
+.car-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px; /* Space between grid items */
+    width: 100%;
+    padding: 16px; /* Padding around the grid container */
+    margin-top: 10%;
+    padding: 20px;
+  }
+  
+  mat-card {
+    display: flex;
+    flex-direction: column;
+    height: 400px; /* Fixed height for cards */
+    width: 100%; /* Full width of grid cell */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for better visual */
+    box-sizing: border-box; /* Ensures padding and border are included in width and height */
+  }
+  
+  mat-card img {
+    width: 100%;
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+  }
+  

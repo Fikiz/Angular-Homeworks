@@ -1,0 +1,19 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px; 
+  }
+  
+  .company-name {
+    font-weight: bold;
+    font-size: 16px; 
+  }
+  
+  button[mat-icon-button] {
+    margin-left: auto; 
+  }
+  
+
+
+  

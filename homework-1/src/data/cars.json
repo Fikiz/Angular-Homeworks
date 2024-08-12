@@ -1,0 +1,123 @@
+[
+    {
+      "id": "1",
+      "description": "Like new, driven carefully, always kept in a garage.",
+      "price": 25000,
+      "images": [
+        "./images/bmw-x5.png"
+      ],
+      "type": "SUV",
+      "year": 2022,
+      "color": "Black",
+      "fuelType": "Diesel",
+      "distance": 15000,
+      "isNew": false,
+      "location": {
+        "city": "Skopje",
+        "country": "Macedonia"
+      },
+      "brand": "BMW",
+      "model": "X5",
+      "enginePower": 200,
+      "doors": 5,
+      "seats": 5,
+      "transmission": "Automatic"
+    },
+    {
+      "id": "2",
+      "description": "Brand new, excellent condition, fully equipped.",
+      "price": 50000,
+      "images": [
+        "./images/c-class.png"
+      ],
+      "type": "Sedan",
+      "year": 2023,
+      "color": "White",
+      "fuelType": "Petrol",
+      "distance": 0,
+      "isNew": true,
+      "location": {
+        "city": "Bitola",
+        "country": "Macedonia"
+      },
+      "brand": "Mercedes-Benz",
+      "model": "C-Class",
+      "enginePower": 190,
+      "doors": 4,
+      "seats": 5,
+      "transmission": "Automatic"
+    },
+    {
+      "id": "3",
+      "description": "Reliable car, recently serviced, perfect for city driving.",
+      "price": 15000,
+      "images": [
+        "./images/golf.png"
+      ],
+      "type": "Hatchback",
+      "year": 2019,
+      "color": "Red",
+      "fuelType": "Petrol",
+      "distance": 45000,
+      "isNew": false,
+      "location": {
+        "city": "Ohrid",
+        "country": "Macedonia"
+      },
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "enginePower": 110,
+      "doors": 5,
+      "seats": 5,
+      "transmission": "Manual"
+    },
+    {
+      "id": "4",
+      "description": "Well-maintained, spacious interior, ideal for long trips.",
+      "price": 30000,
+      "images": [
+       "./images/rav4.png"
+      ],
+      "type": "SUV",
+      "year": 2021,
+      "color": "Blue",
+      "fuelType": "Diesel",
+      "distance": 20000,
+      "isNew": false,
+      "location": {
+        "city": "Prilep",
+        "country": "Macedonia"
+      },
+      "brand": "Toyota",
+      "model": "RAV4",
+      "enginePower": 150,
+      "doors": 5,
+      "seats": 5,
+      "transmission": "Automatic"
+    },
+    {
+      "id": "5",
+      "description": "Classic model, fully restored, a real collector's item.",
+      "price": 60000,
+      "images": [
+        "./images/ford.png"
+      ],
+      "type": "Coupe",
+      "year": 1975,
+      "color": "Green",
+      "fuelType": "Petrol",
+      "distance": 80000,
+      "isNew": false,
+      "location": {
+        "city": "Kumanovo",
+        "country": "Macedonia"
+      },
+      "brand": "Ford",
+      "model": "Mustang",
+      "enginePower": 220,
+      "doors": 2,
+      "seats": 4,
+      "transmission": "Manual"
+    }
+  ]
+  
