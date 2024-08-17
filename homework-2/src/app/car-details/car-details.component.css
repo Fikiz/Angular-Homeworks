@@ -1,0 +1,83 @@
+/* Basic card styling */
+mat-card {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  mat-card-header {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  mat-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  mat-card-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  mat-card-content {
+    padding: 10px 0;
+  }
+  
+  .car-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    mat-card {
+      padding: 15px;
+    }
+  
+    mat-card-title {
+      font-size: 1.2rem;
+    }
+  
+    mat-card-subtitle {
+      font-size: 1rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    mat-card {
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    mat-card-title {
+      font-size: 1rem;
+    }
+  
+    mat-card-subtitle {
+      font-size: 0.9rem;
+    }
+  
+    p {
+      font-size: 0.8rem;
+    }
+  }
+  

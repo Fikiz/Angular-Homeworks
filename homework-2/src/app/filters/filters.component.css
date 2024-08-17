@@ -1,0 +1,81 @@
+.accordion {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.filters-container > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.filters-container label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filter-options label {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between the radio button and the label text */
+}
+
+.filter-options input[type="radio"] {
+  margin: 0;
+}
+
+.filter-options input[type="radio"]:checked {
+  accent-color: #4CAF50;
+}
+
+.filters-container p {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+.mat-slider {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .accordion {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .filters-container {
+    gap: 15px;
+  }
+
+  .filters-container label {
+    font-size: 14px;
+  }
+
+  .filter-options {
+    gap: 8px;
+  }
+
+  .mat-slider {
+    margin-top: 15px;
+  }
+}

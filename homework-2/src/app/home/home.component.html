@@ -1,0 +1,23 @@
+<app-filters 
+[brand]="brand()"
+(onBrandChange)="brand.set($event)"
+
+[fuel]="fuel()"
+(onFuelChange)="fuel.set($event)"
+
+[transmission]="transmission()"
+(onTransmissionChange)="transmission.set($event)"
+
+[type]="type()"
+(onTypeChange)="type.set($event)"
+
+[priceFrom]="priceFrom()"
+(onPriceFromChange)="priceFrom.set($event)"
+
+[priceTo]="priceTo()"
+(onPriceToChange)="priceTo.set($event)"
+/>
+
+
+
+<app-cars [cars]="filteredCars()"  />

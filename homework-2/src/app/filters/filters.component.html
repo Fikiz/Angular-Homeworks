@@ -1,0 +1,78 @@
+<div class="accordion">
+     <div class="filters-container">
+         
+        <div>
+            <label>Brand Options:</label>
+            <div class="filter-options">
+                @for (brandOption of brandOptions; track brandOption) {
+                    <input type="radio" 
+                           [value]="brandOption" 
+                           [checked]="brandOption === brand()"
+                           (click) = "onBrandChange.emit(brandOption)"
+                           />
+                           {{brandOption}}
+                }
+            </div>
+        </div>   
+           
+        <div>
+            <label>Type Options:</label>
+            <div class="filter-options">
+                @for (typeOption of typeOptions; track typeOption) {
+                    <input type="radio" 
+                           [value]="typeOption" 
+                           [checked]="typeOption === type()"
+                           (click) = "onTypeChange.emit(typeOption)"
+                           />
+                           {{typeOption}}
+                }
+            </div>
+        </div>
+  
+        <div>
+            <label>Fuel Options:</label>
+            <div class="filter-options">
+                @for (fuelOption of fuelOptions; track fuelOption) {
+                    <input type="radio" 
+                           [value]="fuelOption" 
+                           [checked]="fuelOption === fuel()"
+                           (click) = "onFuelChange.emit(fuelOption)"
+                           />
+                           {{fuelOption}}
+                }
+            </div>
+        </div>
+
+        <div>
+            <label>Transmission Options:</label>
+            <div class="filter-options">
+                @for (transmissionOption of transmissionOptions; track transmissionOption) {
+                    <input type="radio" 
+                           [value]="transmissionOption" 
+                           [checked]="transmissionOption === transmission()"
+                           (click) = "onTransmissionChange.emit(transmissionOption)"
+                           />
+                           {{transmissionOption}}
+                }
+            </div>
+        </div>
+  
+        <p>{{priceFrom()}} - {{priceTo()}}</p>
+        <mat-slider min="1" max="100000">
+          <input
+            matSliderStartThumb
+            [ngModel] = "priceFrom()"
+            (ngModelChange) = "onPriceFromChange.emit($event)"
+          />
+          <input
+            matSliderEndThumb
+            [ngModel] = "priceTo()"
+            (ngModelChange) = "onPriceToChange.emit($event)"
+          />
+        </mat-slider>
+        
+    </div>
+      
+    
+  </div>
+  

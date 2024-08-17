@@ -1,0 +1,19 @@
+<mat-card *ngIf="car">
+  <mat-card-header>
+    <mat-card-title>{{ car.brand }} {{ car.model }}</mat-card-title>
+    <mat-card-subtitle>{{ car.year }}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <img class="car-image" [src]="car.images[0]" alt="{{ car.brand }} {{ car.model }}" />
+    <p>{{ car.description }}</p>
+    <p>Price: {{ car.price  }}</p>
+    <!-- <p>Distance: {{ car.distance }} km</p> -->
+    <p>Fuel Type: {{ car.fuelType }}</p>
+    <p>Transmission: {{ car.transmission }}</p>
+    <p>Engine Power: {{ car.enginePower }} kW</p>
+    
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-flat-button [routerLink]="['/car-details', car.id]">More details</button>
+  </mat-card-actions>
+</mat-card>

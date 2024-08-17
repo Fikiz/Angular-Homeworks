@@ -1,0 +1,19 @@
+.not-found-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .not-found-container h1 {
+    font-size: 3rem;
+    color: #ff1744;
+  }
+  
+  .not-found-container p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  .not-found-container button {
+    font-size: 1rem;
+  }
+  
